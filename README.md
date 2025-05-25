@@ -44,16 +44,13 @@ To build a centralized Oracle database with PL/SQL that:
 - `ORDERS`: Order metadata
 - `ORDER_ITEMS`: Products per order
 - `SHIPMENTS`: Delivery and tracking
+  ### Some screenshoots
+  ![Database creation](1.png)
+  ![table creation](4.png)
+  
 
 ---
 
-## 🔄 Business Logic
-- Triggers: To restrict DML on weekdays & holidays
-- Procedures: Place order, update inventory
-- Packages: Order & Inventory Management
-- Window Functions: Product sales ranking
-
----
 
 ## 🧪 Testing
 Included sample data for:
@@ -61,6 +58,10 @@ Included sample data for:
 - Customers
 - Products
 - Orders and shipments
+  ## Some screenshoots
+  ![table creation](8.png)
+  ![table creation](9.png)
+  
 
 Test queries validate:
 - Inventory decrements
@@ -68,6 +69,22 @@ Test queries validate:
 - Order creation integrity
 
 ---
+## 🔄 Business Logic
+- Window Functions: Product sales ranking
+   ![table creation](12.png)
+   ![table creation](13.png)
+- Procedures: Place order, update inventory
+-  ![table creation](10.png)
+-  ![table creation](11.png)
+- Triggers: To restrict DML on weekdays & holidays
+  ![table creation](23.png)
+- Packages: Order & Inventory Management
+- ![table creation](14.png)
+- ![table creation](115.png)
+
+
+---
+
 
 ## 📊 Tools Used
 - Oracle SQL Developer
